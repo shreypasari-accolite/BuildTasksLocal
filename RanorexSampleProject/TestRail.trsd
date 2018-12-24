@@ -1,0 +1,418 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "0e9febf1-4330-4340-837d-99d51bf21bf3/c10c4bf6-8ff3-42fd-882f-f811b5a9c42a",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/0e9febf1-4330-4340-837d-99d51bf21bf3",
+      "Name": "AnotherTestProject"
+    },
+    {
+      "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+      "Name": "MyTest_Example"
+    },
+    {
+      "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/303d2e17-5a67-49c2-ae09-ceaba5ededc8",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+      "Name": "PlaygroundSuite"
+    },
+    {
+      "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+      "Name": "Prio1TCs"
+    },
+    {
+      "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/cb03a23b-6770-4645-bbb0-16b2521b3dec",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+      "Name": "TestSuite1"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P3",
+    "Pid": null,
+    "Name": "MyTest Example",
+    "BaseUri": "https://tooltest.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/0e9febf1-4330-4340-837d-99d51bf21bf3",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "AnotherTestProject"
+      },
+      "Tr": null
+    },
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "MyTest Example"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "0e9febf1-4330-4340-837d-99d51bf21bf3/c10c4bf6-8ff3-42fd-882f-f811b5a9c42a",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/0e9febf1-4330-4340-837d-99d51bf21bf3",
+        "Name": "AnotherTestProject"
+      },
+      "Tr": {
+        "Id": "S3",
+        "Pid": "P3",
+        "Name": "AnotherTestProject"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+        "Name": "MyTest_Example"
+      },
+      "Tr": {
+        "Id": "S4",
+        "Pid": "P3",
+        "Name": "MyTest_Example"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/303d2e17-5a67-49c2-ae09-ceaba5ededc8",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+        "Name": "PlaygroundSuite"
+      },
+      "Tr": {
+        "Id": "S5",
+        "Pid": "P3",
+        "Name": "PlaygroundSuite"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+        "Name": "Prio1TCs"
+      },
+      "Tr": {
+        "Id": "S6",
+        "Pid": "P3",
+        "Name": "Prio1TCs"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/cb03a23b-6770-4645-bbb0-16b2521b3dec",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b7dbffb8-b92f-4d83-9f62-e73c4c4885d3",
+        "Name": "TestSuite1"
+      },
+      "Tr": {
+        "Id": "S7",
+        "Pid": "P3",
+        "Name": "TestSuite1"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G2",
+        "Pid": "S3",
+        "Name": "AnotherTestProject"
+      }
+    },
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G3",
+        "Pid": "S4",
+        "Name": "MyTest_Example"
+      }
+    },
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G4",
+        "Pid": "S5",
+        "Name": "PlaygroundSuite"
+      }
+    },
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G5",
+        "Pid": "S6",
+        "Name": "Prio1TCs"
+      }
+    },
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G6",
+        "Pid": "S7",
+        "Name": "TestSuite1"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/303d2e17-5a67-49c2-ae09-ceaba5ededc8",
+        "Name": "Cases_with_iterations"
+      },
+      "Tr": {
+        "Id": "G7",
+        "Pid": "S5",
+        "Name": "Cases_with_iterations"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/55347717-4b0b-4d32-b36d-57498e712c5b",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+        "Name": "Cases_with_different_error_behaviors"
+      },
+      "Tr": {
+        "Id": "G8",
+        "Pid": "S6",
+        "Name": "Cases_with_different_error_behaviors"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "c10c4bf6-8ff3-42fd-882f-f811b5a9c42a/1007ae64-8a1f-46cf-b7a7-8df0c31ba504",
+        "Pid": "0e9febf1-4330-4340-837d-99d51bf21bf3/c10c4bf6-8ff3-42fd-882f-f811b5a9c42a",
+        "Name": "TestCaseWithCondition"
+      },
+      "Tr": {
+        "Id": "C2",
+        "Pid": "G2",
+        "Name": "TestCaseWithCondition"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "20a7eb9e-a752-4b61-ae37-4c26badb66b1/e24da842-3693-42b2-bf9e-7e9f8955fca5",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+        "Name": "MyFistTest"
+      },
+      "Tr": {
+        "Id": "C3",
+        "Pid": "G3",
+        "Name": "MyFistTest"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "20a7eb9e-a752-4b61-ae37-4c26badb66b1/34b4462a-af14-4b42-8b50-90b552fd0b32",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+        "Name": "My_x_Test"
+      },
+      "Tr": {
+        "Id": "C4",
+        "Pid": "G3",
+        "Name": "My_x_Test"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "20a7eb9e-a752-4b61-ae37-4c26badb66b1/e5aaa86b-b579-43a2-9beb-14c34d240f02",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+        "Name": "My_y_Test"
+      },
+      "Tr": {
+        "Id": "C5",
+        "Pid": "G3",
+        "Name": "My_y_Test"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "20a7eb9e-a752-4b61-ae37-4c26badb66b1/862a7041-5889-4f83-983b-e381677aff6d",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/20a7eb9e-a752-4b61-ae37-4c26badb66b1",
+        "Name": "My_z_Test"
+      },
+      "Tr": {
+        "Id": "C6",
+        "Pid": "G3",
+        "Name": "My_z_Test"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/94d45975-6f2c-41cf-b7c4-eb2043370e74",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+        "Name": "TestCase"
+      },
+      "Tr": {
+        "Id": "C7",
+        "Pid": "G5",
+        "Name": "TestCase"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/51849211-e1c7-46cc-8041-6a5812ba1ffd",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+        "Name": "stop"
+      },
+      "Tr": {
+        "Id": "C8",
+        "Pid": "G5",
+        "Name": "stop"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/398819eb-c0c4-4696-a5ca-a292c4dfa9f4",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/2cfb4d38-0441-46f6-8a13-00b054d0fa23",
+        "Name": "doesn't_get_executed"
+      },
+      "Tr": {
+        "Id": "C9",
+        "Pid": "G5",
+        "Name": "doesn't_get_executed"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb03a23b-6770-4645-bbb0-16b2521b3dec/23e91089-96fd-4252-9b20-e38cccfa485f",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/cb03a23b-6770-4645-bbb0-16b2521b3dec",
+        "Name": "DefaultLogLevel"
+      },
+      "Tr": {
+        "Id": "C10",
+        "Pid": "G6",
+        "Name": "DefaultLogLevel"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb03a23b-6770-4645-bbb0-16b2521b3dec/33333eec-5b02-42ca-b347-92e898f6a3aa",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/cb03a23b-6770-4645-bbb0-16b2521b3dec",
+        "Name": "LogLevel_Warn"
+      },
+      "Tr": {
+        "Id": "C11",
+        "Pid": "G6",
+        "Name": "LogLevel_Warn"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb03a23b-6770-4645-bbb0-16b2521b3dec/0a7040b0-f1a1-4441-ace6-32a1baa4fef0",
+        "Pid": "b7dbffb8-b92f-4d83-9f62-e73c4c4885d3/cb03a23b-6770-4645-bbb0-16b2521b3dec",
+        "Name": "LogLevel_Failure"
+      },
+      "Tr": {
+        "Id": "C12",
+        "Pid": "G6",
+        "Name": "LogLevel_Failure"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/5e5f9a2a-1603-4515-8a30-b4c3f1920c8a",
+        "Pid": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Name": "TestCaseWithRetryCount"
+      },
+      "Tr": {
+        "Id": "C13",
+        "Pid": "G7",
+        "Name": "TestCaseWithRetryCount"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/ba6b2ffb-caa9-4d21-a3d7-d7ee73d77324",
+        "Pid": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Name": "TestCaseWithRetryCountInAction"
+      },
+      "Tr": {
+        "Id": "C14",
+        "Pid": "G7",
+        "Name": "TestCaseWithRetryCountInAction"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/4478fe99-59bf-4664-8420-9f687a5ba70b",
+        "Pid": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Name": "TestCaseWithRunIterations"
+      },
+      "Tr": {
+        "Id": "C15",
+        "Pid": "G7",
+        "Name": "TestCaseWithRunIterations"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/a7e15671-cb6d-4301-92e9-572d86614d8d",
+        "Pid": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Name": "TestCaseWithDataIteration"
+      },
+      "Tr": {
+        "Id": "C16",
+        "Pid": "G7",
+        "Name": "TestCaseWithDataIteration"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/198acb3c-83ed-466c-93a2-7fdf31e5f3bd",
+        "Pid": "303d2e17-5a67-49c2-ae09-ceaba5ededc8/06be1bec-f3b9-4e0e-abab-4734fd441110",
+        "Name": "TestCaseWithDataAndRunIteration"
+      },
+      "Tr": {
+        "Id": "C17",
+        "Pid": "G7",
+        "Name": "TestCaseWithDataAndRunIteration"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/db822146-5bcd-4a69-89c5-e234176faad5",
+        "Pid": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/55347717-4b0b-4d32-b36d-57498e712c5b",
+        "Name": "Continue_with_iteration"
+      },
+      "Tr": {
+        "Id": "C18",
+        "Pid": "G8",
+        "Name": "Continue_with_iteration"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/8e6e2045-7593-458a-a4b0-45ccfc1a3575",
+        "Pid": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/55347717-4b0b-4d32-b36d-57498e712c5b",
+        "Name": "Continue_with_sibling"
+      },
+      "Tr": {
+        "Id": "C19",
+        "Pid": "G8",
+        "Name": "Continue_with_sibling"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/a1e6d91e-84ea-4af5-b31f-4e60a3fe46f2",
+        "Pid": "2cfb4d38-0441-46f6-8a13-00b054d0fa23/55347717-4b0b-4d32-b36d-57498e712c5b",
+        "Name": "Continue_with_parent"
+      },
+      "Tr": {
+        "Id": "C20",
+        "Pid": "G8",
+        "Name": "Continue_with_parent"
+      }
+    }
+  ]
+}
