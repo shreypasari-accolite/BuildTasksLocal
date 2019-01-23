@@ -32,7 +32,7 @@
     "Id": "P3",
     "Pid": null,
     "Name": "MyTest Example",
-    "BaseUri": "https://tooltest.testrail.io/",
+    "BaseUri": "https://aakashprakashaccolite.testrail.io/",
     "ProjectSuiteMode": 3,
     "ProjectCustomizations": {
       "TemplateId": 1,
