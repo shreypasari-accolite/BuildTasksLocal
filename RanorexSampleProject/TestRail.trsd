@@ -29,7 +29,7 @@
   "CaseFields": [],
   "ResultFields": [],
   "TestRailProject": {
-    "Id": "P3",
+    "Id": "P1",
     "Pid": null,
     "Name": "MyTest Example",
     "BaseUri": "https://aakashprakashaccolite.testrail.io/",
